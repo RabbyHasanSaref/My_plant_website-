@@ -1,0 +1,415 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section area style  */
+header{
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+
+/* nav section area style */
+.nav-contant{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-logo{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+nav >ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul li{
+    list-style: none;
+    margin-right: 35px;
+}
+
+nav > ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.login-buy a{
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.login-buy i{
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.plant-text{
+    padding-top: 100px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.plant-text h2{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+.plant-text p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* about section area style */
+.about-contant{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.about-contianer{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.about-main{
+    margin-top: 100px;
+}
+
+.about-us h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.about-us hr{
+    width: 200px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: black;
+    border: none;
+}
+
+.about-img img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.about-contant-text{
+    margin-top: 50px;
+}
+
+.about-contant-text h2{
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.about-contant-text p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* catagory section area style */
+.category-contant{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.category-main{
+    margin-top: 100px;
+}
+
+.category h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.category hr{
+    width: 200px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: black;
+    border: none;
+}
+
+.catagory-contianer{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item{
+    width: 338px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.item h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.item button{
+    width: 100px;
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: bisque;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* price section area style */
+.price-contant{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.price-main{
+    margin-top: 100px;
+}
+
+.price h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.price hr{
+    width: 200px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: black;
+    border: none;
+}
+
+.price-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.price-item{
+    width: 338px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.price-item h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.price-item #price{
+    font-size: 20px;
+    color: red;
+    font-weight: 500;
+}
+
+.price-item .price2{
+    font-size: 20px;
+    color: green;
+    font-weight: 500;
+}
+
+.price-item p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.price-item button{
+    width: 100px;
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: bisque;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* footer section area style */
+footer{
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+}
+
+.contact{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.contact-info{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info > div p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.contact-info > div i{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-right: 10px;
+}
+
+.copyright{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright > div p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+@media screen  and (min-width:360px) and (max-width:576px)  {
+    header{
+        height: 70vh;
+        background-image: none;
+        background-color: aqua;
+    }
+    .nav-contant{
+        width: 414px;
+        margin: 0 auto;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    nav >ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .login-buy{
+       display:none;
+    }
+    .plant-text{
+        width: 414px;
+    }
+    .plant-text h2{
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .plant-text p{
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .about-contant{
+        width: 414px;
+        margin: 0 auto;
+    }
+    .about-main{
+        margin-top: 80px;
+    }
+    .about-contianer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-img img{
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .about-contant-text{
+        margin-top: 20px;
+    }
+    .about-contant-text h2{
+        width: 414px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    .about-contant-text p{
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .category-contant{
+        width: 414px;
+        margin: 0 auto;
+    }
+    .category-main{
+        margin-top: 100px;
+    }
+    .catagory-contianer{
+        flex-direction: column;
+    }
+
+    .price-contant{
+        width: 414px;
+        margin: 0 auto;
+    }
+    .price-main{
+        margin-top: 100px;
+    }
+    .price-container{
+        flex-direction: column;
+    }
+
+    .contact{
+        width: 414px;
+        margin: 0 auto;
+    }
+    .contact-info{
+        flex-direction: column;
+    }
+}
